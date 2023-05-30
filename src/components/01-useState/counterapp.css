@@ -1,0 +1,31 @@
+body {
+    padding: 70px;
+    background: rgb(4, 12, 82);
+    color: white;
+}
+
+
+.btn {
+    margin-left: 30px;
+    padding: 15px;
+    background: rgb(92, 212, 248);
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.bot:hover {
+    cursor: pointer;
+}
+
+.btn:active {
+    background: white;
+    border: 1px solid black;
+    transition: 100ms;
+}
+
+.btn:focus {
+    box-shadow: 0 0 10px 3px rgb(0, 255, 255);
+    color: white;
+}
